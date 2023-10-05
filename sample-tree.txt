@@ -1,0 +1,26 @@
+#following is an example tree which I have used
+#Root node
+n
+#its childern & leaf nodes
+a : [a1,a2]
+b : [b1,b2]
+c : [c1,c2]
+#values of leaf nodes
+a1 = -4
+a2 = 3
+b1 = 5
+b2 = 2
+c1 = -1
+c2 = 8
+
+#if the root node is max, 2 is returned
+#if the root node in min, 3 is returned
+#Here is the tree structure
+#           n
+#        /  |  \
+#       /   |   \
+#      /    |    \
+#     a     b     c
+#    / \   / \   / \
+#   a1 a2 b1 b2 c1 c2
+#  -4  3  5  2  -1  8
