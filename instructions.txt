@@ -1,0 +1,22 @@
+Take the following response from user:
+
+minimax -v -ab -range n min/max some_tree.txt
+
+where:
+v is verbose/normal minimax algorithm mode
+ab is alpha beta mode
+n is the range of values
+min/max means either user is asking to minimize or maximize the root node
+some_tree.txt is a txt file that has the values of leaf node which and has some comments with
+# before them.
+
+following are all possible combinations:
+->minimax -v -range 5 max some-tree.txt
+the code will run in verbose mode and the values will range from -5 to 5 and the root node will be maximized and it will take inputs from some-tree.txt
+->minimax -v -ab -range 5 max some-tree.txt
+the code will use alpha beta pruning and the values will range from -5 to 5 and the root node will be maximized and it will take inputs from some-tree.txt
+->minimax -v -range 5 min some-tree.txt
+the code will run in verbose mode and the values will range from -5 to 5 and the root node will be minimized and it will take inputs from some-tree.txt
+->minimax -v -ab -range 5 min some-tree.txt
+the code will use alpha beta pruning and the values will range from -5 to 5 and the root node will be minimized and it will take inputs from some-tree.txt
+
